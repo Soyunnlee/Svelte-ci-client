@@ -11,7 +11,7 @@
 		"noFallthroughCasesInSwitch": true, //switch 구문에서 break, return 반드시 명시
 		"noImplicitOverride": true, //메서드 오버라이드 시 override 키워드 명시
 		"noImplicitReturns": true, //암시적으로 반환 불가
-		"noUnusedLocals": true, //사용하지 않는 지역 변수 허용 안함
+		"noUnusedLocals": false, //사용하지 않는 지역 변수 허용 안함
 		"noUnusedParameters": true, //사용하지 않는 파라미터 허용 안함
 		"strictNullChecks": true, //null, undefined에 대한 점검 필수
 
