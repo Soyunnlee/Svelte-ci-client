@@ -23,12 +23,13 @@
 <section class="sectionWrap">
 	<div class="formWrap">
 		<div class="formPosition" >
-			<div class="w-full">
-				<div class="block rounded-lg bg-white shadow-lg dark:bg-neutral-800">
-					<div class="g-0 lg:flex lg:flex-wrap">
-						<div class="px-4 md:px-0 lg:w-6/12">
-							<div class="md:mx-6 md:p-12">
-
+			<div class="w-full flex justify-center">
+				<div class="block rounded-lg bg-white shadow-lg dark:bg-neutral-800" style="width:86%">
+					<div class="g-0 lg:flex lg:flex-wrap flex items-center" style="width:100%">
+						<div class="px-4 md:px-0 lg:w-[58%]" style="width:50%">
+							<div class="lg:ml-24 lg:mr-12">
+								<!-- margin-left: 6rem; margin-right: 3rem; -->
+								
 								<div class="text-center  my-12">
 									<img
 										class="mx-auto w-72 "
@@ -107,19 +108,13 @@
 								</form>
 							</div>
 						</div>
-						<div
-							class="flex items-center rounded-b-lg lg:w-6/12 lg:rounded-r-lg lg:rounded-bl-none"
-							style="background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)"
+
+						<div class="flex items-center rounded-b-lg lg:w-[42%] lg:rounded-r-lg lg:rounded-bl-none"
+							style="width:50%"
 						>
-							<div class="px-4 py-6 text-white md:mx-6 md:p-12">
-								<h4 class="mb-6 text-xl font-semibold">We are more than just a company</h4>
-								<p class="text-sm">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-									exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-								</p>
-							</div>
+							<img src="https://i.esdrop.com/d/f/KRQCESGJO3/QVjchcUhU1.png" alt=""/>
 						</div>
+
 					</div>
 				</div>
 			</div>
