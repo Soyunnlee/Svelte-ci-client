@@ -1,15 +1,15 @@
 <script lang="ts">
 	let id: string, pw: string;
 	interface bodyType {
-		email: string;
+		userId: string;
 		pw: string;
 	}
 	function moveSignup() {
 		window.location.href = "/signup";
 	}
 	function submitForm() {
-		const body: bodyType = { email: id, pw: pw };
-		const response = fetch("http://localhost:4000/login", {
+		const body: bodyType = { userId: id, pw: pw };
+		const response = fetch("http://localhost:9999/login", {
 			method: "POST",
 			body: JSON.stringify(body),
 		})
@@ -18,7 +18,9 @@
 	}
 </script>
 
-<section class="gradient-form h-full bg-neutral-200 dark:bg-neutral-700 lg:h-screen">
+<section
+	class="gradient-form h-full bg-neutral-200 dark:bg-neutral-700 lg:h-screen"
+>
 	<div class="container h-full p-10 m-auto">
 		<div
 			class="g-6 flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200"
@@ -34,7 +36,9 @@
 										src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
 										alt="logo"
 									/>
-									<h4 class="mt-1 mb-12 pb-1 text-xl font-semibold">We are The Lotus Team</h4>
+									<h4 class="mt-1 mb-12 pb-1 text-xl font-semibold">
+										We are The Lotus Team
+									</h4>
 								</div>
 								<form on:submit={submitForm}>
 									<p class="mb-4">Please login to your account</p>
@@ -101,11 +105,14 @@
 							style="background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)"
 						>
 							<div class="px-4 py-6 text-white md:mx-6 md:p-12">
-								<h4 class="mb-6 text-xl font-semibold">We are more than just a company</h4>
+								<h4 class="mb-6 text-xl font-semibold">
+									We are more than just a company
+								</h4>
 								<p class="text-sm">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-									exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco
+									laboris nisi ut aliquip ex ea commodo consequat.
 								</p>
 							</div>
 						</div>
