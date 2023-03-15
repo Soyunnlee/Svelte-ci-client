@@ -1,0 +1,15 @@
+.sectionWrap{
+    @apply bg-neutral-200 h-screen
+    /* Dark Mode */
+    dark:bg-neutral-700 
+}
+
+.formWrap{
+    @apply container h-full p-10 m-auto
+}
+
+.formPosition{
+    @apply flex h-full flex-wrap items-center justify-center text-neutral-800
+    /* Dark Mode */
+    dark:text-neutral-200 
+}

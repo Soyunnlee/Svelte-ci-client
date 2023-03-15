@@ -27,7 +27,14 @@
 		"forceConsistentCasingInFileNames": true,
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
-		"sourceMap": true
+		"sourceMap": true,
+
+		// Plugin
+		"plugins": [
+			{
+				"name": "@tw-in-js/typescript-plugin"
+			}
+		]
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
